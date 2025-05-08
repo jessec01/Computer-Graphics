@@ -1,0 +1,6 @@
+/home/jessec/Documentos/Computer-Graphics/first demo/build/CMakeFiles/tutorial.dir
+/home/jessec/Documentos/Computer-Graphics/first demo/build/CMakeFiles/edit_cache.dir
+/home/jessec/Documentos/Computer-Graphics/first demo/build/CMakeFiles/rebuild_cache.dir
+/home/jessec/Documentos/Computer-Graphics/first demo/build/glad/CMakeFiles/glad.dir
+/home/jessec/Documentos/Computer-Graphics/first demo/build/glad/CMakeFiles/edit_cache.dir
+/home/jessec/Documentos/Computer-Graphics/first demo/build/glad/CMakeFiles/rebuild_cache.dir
