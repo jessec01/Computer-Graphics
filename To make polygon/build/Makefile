@@ -142,29 +142,29 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
-render.o: render.cpp.o
-.PHONY : render.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-render.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/render.cpp.o
-.PHONY : render.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-render.i: render.cpp.i
-.PHONY : render.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-render.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/render.cpp.i
-.PHONY : render.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-render.s: render.cpp.s
-.PHONY : render.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-render.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/render.cpp.s
-.PHONY : render.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -176,9 +176,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... glad"
 	@echo "... tutorial"
-	@echo "... render.o"
-	@echo "... render.i"
-	@echo "... render.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

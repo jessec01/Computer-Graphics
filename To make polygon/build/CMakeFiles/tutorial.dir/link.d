@@ -2,7 +2,7 @@ tutorial: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o \
-  CMakeFiles/tutorial.dir/render.cpp.o \
+  CMakeFiles/tutorial.dir/main.cpp.o \
   /usr/lib/libglfw.so.3.4 \
   glad/libglad.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libdl.a \
@@ -40,7 +40,7 @@ tutorial: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o:
 
-CMakeFiles/tutorial.dir/render.cpp.o:
+CMakeFiles/tutorial.dir/main.cpp.o:
 
 /usr/lib/libglfw.so.3.4:
 

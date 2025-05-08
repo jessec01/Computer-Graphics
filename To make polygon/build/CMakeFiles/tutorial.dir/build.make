@@ -72,28 +72,28 @@ include CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/codegen:
 .PHONY : CMakeFiles/tutorial.dir/codegen
 
-CMakeFiles/tutorial.dir/render.cpp.o: CMakeFiles/tutorial.dir/flags.make
-CMakeFiles/tutorial.dir/render.cpp.o: /home/jessec/Documentos/Computer-Graphics/To\ make\ polygon/render.cpp
-CMakeFiles/tutorial.dir/render.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jessec/Documentos/Computer-Graphics/To make polygon/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tutorial.dir/render.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/render.cpp.o -MF CMakeFiles/tutorial.dir/render.cpp.o.d -o CMakeFiles/tutorial.dir/render.cpp.o -c "/home/jessec/Documentos/Computer-Graphics/To make polygon/render.cpp"
+CMakeFiles/tutorial.dir/main.cpp.o: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/main.cpp.o: /home/jessec/Documentos/Computer-Graphics/To\ make\ polygon/main.cpp
+CMakeFiles/tutorial.dir/main.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jessec/Documentos/Computer-Graphics/To make polygon/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tutorial.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/main.cpp.o -MF CMakeFiles/tutorial.dir/main.cpp.o.d -o CMakeFiles/tutorial.dir/main.cpp.o -c "/home/jessec/Documentos/Computer-Graphics/To make polygon/main.cpp"
 
-CMakeFiles/tutorial.dir/render.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial.dir/render.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jessec/Documentos/Computer-Graphics/To make polygon/render.cpp" > CMakeFiles/tutorial.dir/render.cpp.i
+CMakeFiles/tutorial.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jessec/Documentos/Computer-Graphics/To make polygon/main.cpp" > CMakeFiles/tutorial.dir/main.cpp.i
 
-CMakeFiles/tutorial.dir/render.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial.dir/render.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jessec/Documentos/Computer-Graphics/To make polygon/render.cpp" -o CMakeFiles/tutorial.dir/render.cpp.s
+CMakeFiles/tutorial.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jessec/Documentos/Computer-Graphics/To make polygon/main.cpp" -o CMakeFiles/tutorial.dir/main.cpp.s
 
 # Object files for target tutorial
 tutorial_OBJECTS = \
-"CMakeFiles/tutorial.dir/render.cpp.o"
+"CMakeFiles/tutorial.dir/main.cpp.o"
 
 # External object files for target tutorial
 tutorial_EXTERNAL_OBJECTS =
 
-tutorial: CMakeFiles/tutorial.dir/render.cpp.o
+tutorial: CMakeFiles/tutorial.dir/main.cpp.o
 tutorial: CMakeFiles/tutorial.dir/build.make
 tutorial: CMakeFiles/tutorial.dir/compiler_depend.ts
 tutorial: /usr/lib/libglfw.so.3.4

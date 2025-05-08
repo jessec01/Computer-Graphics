@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jessec/Documentos/Computer-Graphics/To make polygon/render.cpp" "CMakeFiles/tutorial.dir/render.cpp.o" "gcc" "CMakeFiles/tutorial.dir/render.cpp.o.d"
+  "/home/jessec/Documentos/Computer-Graphics/To make polygon/main.cpp" "CMakeFiles/tutorial.dir/main.cpp.o" "gcc" "CMakeFiles/tutorial.dir/main.cpp.o.d"
   "" "tutorial" "gcc" "CMakeFiles/tutorial.dir/link.d"
   )
 
