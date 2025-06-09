@@ -1,0 +1,6 @@
+/home/jessec/Documentos/Computer-Graphics/Version optimizada/build/CMakeFiles/tutorial.dir
+/home/jessec/Documentos/Computer-Graphics/Version optimizada/build/CMakeFiles/edit_cache.dir
+/home/jessec/Documentos/Computer-Graphics/Version optimizada/build/CMakeFiles/rebuild_cache.dir
+/home/jessec/Documentos/Computer-Graphics/Version optimizada/build/glad/CMakeFiles/glad.dir
+/home/jessec/Documentos/Computer-Graphics/Version optimizada/build/glad/CMakeFiles/edit_cache.dir
+/home/jessec/Documentos/Computer-Graphics/Version optimizada/build/glad/CMakeFiles/rebuild_cache.dir

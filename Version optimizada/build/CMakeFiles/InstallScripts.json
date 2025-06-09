@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jessec/Documentos/Computer-Graphics/Version optimizada/build/cmake_install.cmake",
+		"/home/jessec/Documentos/Computer-Graphics/Version optimizada/build/glad/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
