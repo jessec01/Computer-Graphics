@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jessec/Documentos/Computer-Graphics/3dpractice/build/cmake_install.cmake",
+		"/home/jessec/Documentos/Computer-Graphics/3dpractice/build/glad/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
