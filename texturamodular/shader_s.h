@@ -17,5 +17,7 @@ class Shader{
     Shader(const char* vertexFile, const char* fragmentFile);
     void Active();
     void Delete();
+    void setInt(const std::string &name, int value)const ;
+   
 };
 #endif

@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jessec/Documentos/Computer-Graphics/texturamodular/VBO.cpp" "CMakeFiles/tutorial.dir/VBO.cpp.o" "gcc" "CMakeFiles/tutorial.dir/VBO.cpp.o.d"
   "/home/jessec/Documentos/Computer-Graphics/texturamodular/main.cpp" "CMakeFiles/tutorial.dir/main.cpp.o" "gcc" "CMakeFiles/tutorial.dir/main.cpp.o.d"
   "/home/jessec/Documentos/Computer-Graphics/texturamodular/shader.cpp" "CMakeFiles/tutorial.dir/shader.cpp.o" "gcc" "CMakeFiles/tutorial.dir/shader.cpp.o.d"
+  "/home/jessec/Documentos/Computer-Graphics/texturamodular/stb.cpp" "CMakeFiles/tutorial.dir/stb.cpp.o" "gcc" "CMakeFiles/tutorial.dir/stb.cpp.o.d"
+  "/home/jessec/Documentos/Computer-Graphics/texturamodular/texture.cpp" "CMakeFiles/tutorial.dir/texture.cpp.o" "gcc" "CMakeFiles/tutorial.dir/texture.cpp.o.d"
   "" "tutorial" "gcc" "CMakeFiles/tutorial.dir/link.d"
   )
 

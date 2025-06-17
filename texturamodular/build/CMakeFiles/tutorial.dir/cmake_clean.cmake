@@ -10,6 +10,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/tutorial.dir/main.cpp.o.d"
   "CMakeFiles/tutorial.dir/shader.cpp.o"
   "CMakeFiles/tutorial.dir/shader.cpp.o.d"
+  "CMakeFiles/tutorial.dir/stb.cpp.o"
+  "CMakeFiles/tutorial.dir/stb.cpp.o.d"
+  "CMakeFiles/tutorial.dir/texture.cpp.o"
+  "CMakeFiles/tutorial.dir/texture.cpp.o.d"
   "tutorial"
   "tutorial.pdb"
 )

@@ -262,6 +262,54 @@ shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/shader.cpp.s
 .PHONY : shader.cpp.s
 
+stb.o: stb.cpp.o
+.PHONY : stb.o
+
+# target to build an object file
+stb.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/stb.cpp.o
+.PHONY : stb.cpp.o
+
+stb.i: stb.cpp.i
+.PHONY : stb.i
+
+# target to preprocess a source file
+stb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/stb.cpp.i
+.PHONY : stb.cpp.i
+
+stb.s: stb.cpp.s
+.PHONY : stb.s
+
+# target to generate assembly for a file
+stb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/stb.cpp.s
+.PHONY : stb.cpp.s
+
+texture.o: texture.cpp.o
+.PHONY : texture.o
+
+# target to build an object file
+texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/texture.cpp.o
+.PHONY : texture.cpp.o
+
+texture.i: texture.cpp.i
+.PHONY : texture.i
+
+# target to preprocess a source file
+texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/texture.cpp.i
+.PHONY : texture.cpp.i
+
+texture.s: texture.cpp.s
+.PHONY : texture.s
+
+# target to generate assembly for a file
+texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/texture.cpp.s
+.PHONY : texture.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,6 +335,12 @@ help:
 	@echo "... shader.o"
 	@echo "... shader.i"
 	@echo "... shader.s"
+	@echo "... stb.o"
+	@echo "... stb.i"
+	@echo "... stb.s"
+	@echo "... texture.o"
+	@echo "... texture.i"
+	@echo "... texture.s"
 .PHONY : help
 
 
