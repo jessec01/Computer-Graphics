@@ -214,6 +214,30 @@ VBO.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/VBO.cpp.s
 .PHONY : VBO.cpp.s
 
+camara.o: camara.cpp.o
+.PHONY : camara.o
+
+# target to build an object file
+camara.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/camara.cpp.o
+.PHONY : camara.cpp.o
+
+camara.i: camara.cpp.i
+.PHONY : camara.i
+
+# target to preprocess a source file
+camara.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/camara.cpp.i
+.PHONY : camara.cpp.i
+
+camara.s: camara.cpp.s
+.PHONY : camara.s
+
+# target to generate assembly for a file
+camara.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/camara.cpp.s
+.PHONY : camara.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -329,6 +353,9 @@ help:
 	@echo "... VBO.o"
 	@echo "... VBO.i"
 	@echo "... VBO.s"
+	@echo "... camara.o"
+	@echo "... camara.i"
+	@echo "... camara.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

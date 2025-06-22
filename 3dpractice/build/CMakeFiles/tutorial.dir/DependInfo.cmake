@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jessec/Documentos/Computer-Graphics/3dpractice/EBO.cpp" "CMakeFiles/tutorial.dir/EBO.cpp.o" "gcc" "CMakeFiles/tutorial.dir/EBO.cpp.o.d"
   "/home/jessec/Documentos/Computer-Graphics/3dpractice/VAO.cpp" "CMakeFiles/tutorial.dir/VAO.cpp.o" "gcc" "CMakeFiles/tutorial.dir/VAO.cpp.o.d"
   "/home/jessec/Documentos/Computer-Graphics/3dpractice/VBO.cpp" "CMakeFiles/tutorial.dir/VBO.cpp.o" "gcc" "CMakeFiles/tutorial.dir/VBO.cpp.o.d"
+  "/home/jessec/Documentos/Computer-Graphics/3dpractice/camara.cpp" "CMakeFiles/tutorial.dir/camara.cpp.o" "gcc" "CMakeFiles/tutorial.dir/camara.cpp.o.d"
   "/home/jessec/Documentos/Computer-Graphics/3dpractice/main.cpp" "CMakeFiles/tutorial.dir/main.cpp.o" "gcc" "CMakeFiles/tutorial.dir/main.cpp.o.d"
   "/home/jessec/Documentos/Computer-Graphics/3dpractice/shader.cpp" "CMakeFiles/tutorial.dir/shader.cpp.o" "gcc" "CMakeFiles/tutorial.dir/shader.cpp.o.d"
   "/home/jessec/Documentos/Computer-Graphics/3dpractice/stb.cpp" "CMakeFiles/tutorial.dir/stb.cpp.o" "gcc" "CMakeFiles/tutorial.dir/stb.cpp.o.d"

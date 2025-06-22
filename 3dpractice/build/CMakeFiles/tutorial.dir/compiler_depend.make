@@ -74,10 +74,334 @@ CMakeFiles/tutorial.dir/VBO.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dp
   /usr/include/sys/cdefs.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
 
+CMakeFiles/tutorial.dir/camara.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/camara.cpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/camara.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/KHR/khrplatform.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glad/glad.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/common.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/common.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/exponential.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/geometric.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/_fixes.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/_vectorize.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_common.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_common.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_common_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_exponential.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_exponential.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_exponential_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_geometric.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_geometric.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_geometric_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_vector_relational.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_vector_relational.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_vector_relational_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x3.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x3.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x4.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x4.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x2.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x2.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x3.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x3.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x4.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x4.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x2.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x2.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x3.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x3.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x4.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x4.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x4_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec1.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec1.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/geometric.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat2x3.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat2x4.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat3x2.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat3x3.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat3x4.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat4x2.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat4x3.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat4x4.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/integer.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/matrix.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/platform.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/_fixes.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_integer.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_integer.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_integer_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_matrix.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_matrix.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_matrix_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_packing.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_packing.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_packing_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_trigonometric.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_trigonometric.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_trigonometric_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/precision.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/setup.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_float.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_half.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_half.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_int.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x2.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x2.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec2.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec2.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec3.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec3.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec4.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec4.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec4_simd.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/exponential.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/fwd.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/glm.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/constants.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/constants.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/matrix_transform.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/matrix_transform.inl \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/integer.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat2x2.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/matrix.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/packing.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/trigonometric.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/vec2.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/vec3.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/vec4.hpp \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/vector_relational.hpp \
+  /usr/include/alloca.h \
+  /usr/include/assert.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/xopen_lim.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/specfun.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cassert \
+  /usr/include/c++/14.2.1/cfloat \
+  /usr/include/c++/14.2.1/climits \
+  /usr/include/c++/14.2.1/cmath \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdint \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/limits \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdlib.h \
+  /usr/include/c++/14.2.1/tr1/bessel_function.tcc \
+  /usr/include/c++/14.2.1/tr1/beta_function.tcc \
+  /usr/include/c++/14.2.1/tr1/ell_integral.tcc \
+  /usr/include/c++/14.2.1/tr1/exp_integral.tcc \
+  /usr/include/c++/14.2.1/tr1/gamma.tcc \
+  /usr/include/c++/14.2.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/14.2.1/tr1/legendre_function.tcc \
+  /usr/include/c++/14.2.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/14.2.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/14.2.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/14.2.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/14.2.1/tr1/special_function_util.h \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bitalgvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniint16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/cmpccxaddintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/float.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/immintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/keylockerintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sha512intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sm3intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sm4intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/smmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/usermsrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xtestintrin.h
+
 CMakeFiles/tutorial.dir/main.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/main.cpp \
   /home/jessec/Documentos/Computer-Graphics/3dpractice/EBO.h \
   /home/jessec/Documentos/Computer-Graphics/3dpractice/VAO.h \
   /home/jessec/Documentos/Computer-Graphics/3dpractice/VBO.h \
+  /home/jessec/Documentos/Computer-Graphics/3dpractice/camara.h \
   /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/GLFW/glfw3.h \
   /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/KHR/khrplatform.h \
   /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glad/glad.h \
@@ -1596,6 +1920,7 @@ tutorial: /usr/lib/Scrt1.o \
   CMakeFiles/tutorial.dir/EBO.cpp.o \
   CMakeFiles/tutorial.dir/VAO.cpp.o \
   CMakeFiles/tutorial.dir/VBO.cpp.o \
+  CMakeFiles/tutorial.dir/camara.cpp.o \
   CMakeFiles/tutorial.dir/main.cpp.o \
   CMakeFiles/tutorial.dir/shader.cpp.o \
   CMakeFiles/tutorial.dir/stb.cpp.o \
@@ -1625,135 +1950,13 @@ CMakeFiles/tutorial.dir/EBO.cpp.o:
 
 /usr/include/c++/14.2.1/math.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xtestintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsaveintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsavecintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/x86gprintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/waitpkgintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/vpclmulqdqintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/usermsrintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/tsxldtrkintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/smmintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sm4intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/shaintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sha512intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sgxintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/serializeintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/rdseedintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/raointintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/popcntintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/pconfigintrin.h:
-
-/usr/lib/libgcc_s.so:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mmintrin.h:
-
-CMakeFiles/tutorial.dir/VBO.cpp.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mm_malloc.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/ia32intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/hresetintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/gfniintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/fxsrintrin.h:
-
-/usr/lib/libm.so:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/f16cintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/cetintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniint16intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxneconvertintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxifmaintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vpopcntdqintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vp2intersectvlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vnnivlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vldqintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vlbwintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/enqcmdintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmiintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmi2vlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmi2intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512ifmaintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512fp16vlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bwintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bitalgintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bf16vlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clwbintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bf16intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx5124fmapsintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxtileintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vpopcntdqvlintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxint8intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxfp16intrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxcomplexintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxbf16intrin.h:
 
 /usr/include/time.h:
 
 /usr/include/strings.h:
 
 /usr/include/string.h:
-
-/usr/include/stdlib.h:
 
 /usr/lib/libstdc++.so:
 
@@ -1765,15 +1968,7 @@ CMakeFiles/tutorial.dir/VBO.cpp.o:
 
 /usr/include/linux/sched/types.h:
 
-/usr/include/linux/limits.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/wbnoinvdintrin.h:
-
-/usr/include/limits.h:
-
 /usr/include/ctype.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
 
@@ -1783,17 +1978,7 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h:
 
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h:
-
-/usr/include/c++/14.2.1/tr1/legendre_function.tcc:
-
-/usr/include/c++/14.2.1/tr1/gamma.tcc:
-
-/usr/include/c++/14.2.1/tr1/exp_integral.tcc:
-
-/usr/include/c++/14.2.1/tr1/beta_function.tcc:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
@@ -1811,47 +1996,19 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/c++/14.2.1/sstream:
 
-/usr/include/c++/14.2.1/pstl/pstl_config.h:
-
 /usr/include/c++/14.2.1/new:
 
 /usr/include/c++/14.2.1/iosfwd:
-
-/usr/include/math.h:
-
-/usr/include/c++/14.2.1/ios:
 
 /usr/include/c++/14.2.1/fstream:
 
 /usr/include/c++/14.2.1/ext/string_conversions.h:
 
-/usr/include/c++/14.2.1/ext/numeric_traits.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/c++/14.2.1/exception:
-
-/usr/include/c++/14.2.1/debug/debug.h:
-
 /usr/include/c++/14.2.1/cwctype:
-
-/usr/include/c++/14.2.1/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/14.2.1/cwchar:
 
 /usr/include/c++/14.2.1/cstring:
 
 /usr/include/c++/14.2.1/cstdio:
-
-/usr/include/c++/14.2.1/cstdint:
-
-/usr/include/c++/14.2.1/initializer_list:
-
-/usr/include/c++/14.2.1/cfloat:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
-
-/usr/include/c++/14.2.1/bits/version.h:
 
 /usr/include/c++/14.2.1/bits/uses_allocator_args.h:
 
@@ -1863,41 +2020,249 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/c++/14.2.1/bits/streambuf.tcc:
 
-/usr/include/c++/14.2.1/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h:
-
 /usr/include/c++/14.2.1/bits/stl_function.h:
 
+/usr/include/c++/14.2.1/bits/refwrap.h:
+
+/usr/include/c++/14.2.1/bits/postypes.h:
+
+/usr/include/c++/14.2.1/bits/ostream_insert.h:
+
+/usr/include/c++/14.2.1/bits/new_allocator.h:
+
+/usr/include/c++/14.2.1/bits/memoryfwd.h:
+
+/usr/include/c++/14.2.1/bits/memory_resource.h:
+
+/usr/include/c++/14.2.1/bits/locale_facets.tcc:
+
+/usr/include/c++/14.2.1/bits/invoke.h:
+
+/usr/include/c++/14.2.1/bits/exception_ptr.h:
+
+/usr/include/c++/14.2.1/bits/exception.h:
+
+/usr/include/c++/14.2.1/bits/codecvt.h:
+
+/usr/include/c++/14.2.1/bits/basic_string.tcc:
+
+/usr/include/c++/14.2.1/bits/basic_string.h:
+
+/usr/include/c++/14.2.1/bits/basic_ios.h:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/14.2.1/tuple:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/c++/14.2.1/bits/charconv.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/asm/types.h:
+
+/usr/include/asm/posix_types_64.h:
+
+/usr/include/c++/14.2.1/bits/cxxabi_forced.h:
+
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/shader_s.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/type_ptr.hpp:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/quaternion_simd.inl:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/quaternion.hpp:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/GLFW/glfw3.h:
+
+/usr/include/errno.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/main.cpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xtestintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsaveintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsavecintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/x86gprintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/waitpkgintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/vpclmulqdqintrin.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/vaesintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/usermsrintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/tsxldtrkintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/smmintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sm4intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/shaintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sha512intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sgxintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/serializeintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/rdseedintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/raointintrin.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/prfchiintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/popcntintrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/texture.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/pkuintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/pconfigintrin.h:
+
+/usr/lib/libgcc_s.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mmintrin.h:
+
+CMakeFiles/tutorial.dir/VBO.cpp.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mm_malloc.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h:
+
+/usr/include/c++/14.2.1/bits/istream.tcc:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/immintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/ia32intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/hresetintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/gfniintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/fxsrintrin.h:
+
+/usr/include/bits/types/struct_sched_param.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/float.h:
+
+/usr/lib/libm.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/f16cintrin.h:
+
+/usr/include/c++/14.2.1/bits/locale_facets.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsaveoptintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/cldemoteintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/cetintrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/type_ptr.inl:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/bmiintrin.h:
+
+/usr/include/c++/14.2.1/bits/locale_classes.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/bmi2intrin.h:
+
+/usr/include/c++/14.2.1/bits/hash_bytes.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniint8intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniint16intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxneconvertintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxifmaintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vpopcntdqintrin.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/bits/cpu-set.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec3.hpp:
+
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/trigonometric.hpp:
+
+CMakeFiles/tutorial.dir/camara.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_int.hpp:
 
+/usr/include/c++/14.2.1/debug/debug.h:
+
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/packing.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniintrin.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec2.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bitalgvlintrin.h:
-
-/usr/include/c++/14.2.1/bits/ios_base.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx2intrin.h:
-
-/usr/include/c++/14.2.1/bit:
-
-/usr/include/c++/14.2.1/bits/memoryfwd.h:
 
 /usr/include/c++/14.2.1/bits/requires_hosted.h:
 
+/usr/include/c++/14.2.1/ios:
+
+/usr/include/math.h:
+
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec3.inl:
+
+/usr/include/c++/14.2.1/bits/sstream.tcc:
+
+/usr/include/c++/14.2.1/bits/alloc_traits.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glad/glad.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec2.inl:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniintrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec2.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mwaitxintrin.h:
 
@@ -1909,23 +2274,17 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_trigonometric_simd.inl:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/tmmintrin.h:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/stb/stb_image.h:
 
-/usr/include/c++/14.2.1/tr1/riemann_zeta.tcc:
+/usr/include/c++/14.2.1/tr1/bessel_function.tcc:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_common.hpp:
+/usr/include/c++/14.2.1/bits/nested_exception.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_packing.inl:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/glm.hpp:
 
-/usr/include/c++/14.2.1/bits/basic_string.tcc:
-
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_matrix_simd.inl:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/include/c++/14.2.1/cmath:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/common.h:
 
 /usr/lib/crtn.o:
 
@@ -1937,59 +2296,43 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/pthreadtypes.h:
 
-/usr/include/c++/14.2.1/bits/basic_string.h:
-
-/usr/include/bits/posix2_lim.h:
+/usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_integer_simd.inl:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/texture.cpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512ifmavlintrin.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_integer.inl:
-
-/usr/include/c++/14.2.1/bits/refwrap.h:
-
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/platform.h:
+
+/usr/include/c++/14.2.1/istream:
+
+/usr/include/assert.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/VAO.cpp:
+
+/usr/include/c++/14.2.1/bits/concept_check.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/precision.hpp:
 
-/usr/include/errno.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/main.cpp:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat4x4.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clzerointrin.h:
 
-/usr/include/c++/14.2.1/ext/type_traits.h:
-
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_geometric.inl:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat4x4.hpp:
+/usr/include/c++/14.2.1/ext/type_traits.h:
 
-/usr/include/asm/types.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxcomplexintrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/lzcntintrin.h:
+/usr/include/c++/14.2.1/bits/basic_ios.tcc:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vnniintrin.h:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec4.inl:
 
-/usr/include/c++/14.2.1/cstddef:
+/usr/include/bits/posix2_lim.h:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat4x2.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vpopcntdqvlintrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/pmmintrin.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxint8intrin.h:
 
-/usr/include/c++/14.2.1/bits/stl_iterator.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat3x2.hpp:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/c++/14.2.1/tr1/modified_bessel_func.tcc:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/geometric.hpp:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vnnivlintrin.h:
 
 /usr/include/bits/long-double.h:
 
@@ -2001,43 +2344,33 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_integer.hpp:
 
-/usr/include/c++/14.2.1/climits:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_trigonometric.inl:
-
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat3x4.hpp:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec4.inl:
-
-/usr/include/c++/14.2.1/bits/basic_ios.tcc:
-
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec1.hpp:
-
-/usr/include/c++/14.2.1/bits/ostream_insert.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat3x3.hpp:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/matrix_transform.hpp:
 
-/usr/include/c++/14.2.1/cassert:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_packing_simd.inl:
-
 /usr/include/c++/14.2.1/cerrno:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x3.hpp:
 
+/usr/include/c++/14.2.1/bits/char_traits.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/constants.inl:
+
 /home/jessec/Documentos/Computer-Graphics/3dpractice/VAO.h:
-
-/usr/lib/Scrt1.o:
-
-/usr/include/c++/14.2.1/type_traits:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat4x3.hpp:
 
 /usr/include/stdc-predef.h:
 
-/usr/include/asm-generic/posix_types.h:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/texture.cpp:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_integer.inl:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512ifmavlintrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/camara.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec4_simd.inl:
 
@@ -2047,23 +2380,25 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/bmiintrin.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/type_ptr.inl:
-
-/usr/include/bits/thread-shared-types.h:
+/usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/sched.h:
 
-/usr/include/bits/types/__FILE.h:
-
 /usr/include/features.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/lwpintrin.h:
 
 /usr/include/c++/14.2.1/typeinfo:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/lwpintrin.h:
+
 /usr/include/bits/endianness.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_packing_simd.inl:
+
+/usr/include/c++/14.2.1/cassert:
+
+/usr/include/c++/14.2.1/ext/numeric_traits.h:
+
+/usr/include/linux/limits.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/fmaintrin.h:
 
@@ -2071,7 +2406,15 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/vec3.hpp:
 
-/usr/include/c++/14.2.1/bits/locale_facets.tcc:
+/usr/lib/ld-linux-x86-64.so.2:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/common.h:
+
+/usr/include/c++/14.2.1/cmath:
+
+/usr/include/c++/14.2.1/bits/range_access.h:
+
+/usr/include/features-time64.h:
 
 /usr/include/bits/mathcalls-narrow.h:
 
@@ -2087,9 +2430,9 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/lib/libm.so.6:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsavesintrin.h:
-
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/quaternion.inl:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsavesintrin.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_geometric_simd.inl:
 
@@ -2099,21 +2442,19 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/types.h:
 
-/usr/include/c++/14.2.1/bits/nested_exception.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_packing.inl:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xmmintrin.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/EBO.h:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/quaternion.hpp:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_common_simd.inl:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/VBO.cpp:
 
 /usr/include/bits/timesize.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x4.inl:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxbf16intrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/emmintrin.h:
 
@@ -2123,31 +2464,11 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/gnu/stubs-64.h:
 
+/home/jessec/Documentos/Computer-Graphics/3dpractice/camara.cpp:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/movdirintrin.h:
 
 /usr/include/bits/libc-header-start.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmivlintrin.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/vector_relational.hpp:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/shader.cpp:
-
-/usr/include/c++/14.2.1/tr1/ell_integral.tcc:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/GLFW/glfw3.h:
-
-/usr/include/c++/14.2.1/stdlib.h:
-
-/usr/include/c++/14.2.1/ext/atomicity.h:
-
-/usr/include/c++/14.2.1/bits/utility.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec4.hpp:
-
-/usr/include/c++/14.2.1/bits/stl_construct.h:
 
 /usr/include/c++/14.2.1/iostream:
 
@@ -2155,37 +2476,25 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/stdint-uintn.h:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/quaternion_simd.inl:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsaveoptintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/cldemoteintrin.h:
-
-/usr/include/c++/14.2.1/bits/locale_facets.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/rtmintrin.h:
 
 /usr/include/bits/types/clockid_t.h:
 
 /usr/include/bits/stdint-intn.h:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_exponential.inl:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clwbintrin.h:
 
-/usr/include/asm-generic/errno.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bf16intrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_exponential.inl:
 
 /usr/include/bits/fp-logb.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat2x3.hpp:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/bits/wctype-wchar.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/vaesintrin.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/asm-generic/types.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_common_simd.inl:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat2x2.hpp:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_float.hpp:
 
@@ -2193,13 +2502,7 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/stdint-least.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clflushoptintrin.h:
-
-/usr/include/c++/14.2.1/tr1/hypergeometric.tcc:
-
-/usr/include/c++/14.2.1/bits/fstream.tcc:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_half.hpp:
+/usr/include/c++/14.2.1/tr1/exp_integral.tcc:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/vec4.hpp:
 
@@ -2209,23 +2512,29 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/stdlib-float.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512ifmaintrin.h:
+
 /usr/include/c++/14.2.1/bits/allocator.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_geometric.hpp:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x4.hpp:
 
-/usr/include/c++/14.2.1/bits/exception.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sm3intrin.h:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/VAO.cpp:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_trigonometric.hpp:
 
-/usr/include/c++/14.2.1/istream:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat2x4.hpp:
 
-/usr/include/assert.h:
-
-/usr/include/c++/14.2.1/bits/concept_check.h:
+/usr/include/alloca.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_vector_relational.inl:
+
+/usr/include/c++/14.2.1/bits/localefwd.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512fintrin.h:
 
 /usr/include/stdio.h:
 
@@ -2243,15 +2552,9 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/typesizes.h:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/type_ptr.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx5124vnniwintrin.h:
-
-/usr/include/c++/14.2.1/bits/cpp_type_traits.h:
-
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_packing.hpp:
 
-/usr/include/c++/14.2.1/bits/invoke.h:
+/usr/include/c++/14.2.1/cstdint:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_common.inl:
 
@@ -2263,123 +2566,83 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/common.hpp:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmi2vlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vldqintrin.h:
+
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/exponential.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/vector_relational.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmivlintrin.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec1.inl:
 
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/c++/14.2.1/bits/std_abs.h:
-
-/usr/include/c++/14.2.1/cstdlib:
-
-/usr/include/c++/14.2.1/bits/stl_algobase.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vp2intersectvlintrin.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x3.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/float.h:
+/usr/include/bits/types/error_t.h:
 
-/usr/include/bits/types/struct_sched_param.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/wmmintrin.h:
-
-/usr/include/c++/14.2.1/concepts:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/KHR/khrplatform.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512cdintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512pfintrin.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/_fixes.hpp:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec3.hpp:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/sys/select.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/keylockerintrin.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/setup.hpp:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512fp16intrin.h:
-
-/usr/include/bits/errno.h:
-
-/usr/include/c++/14.2.1/tuple:
-
-/usr/include/bits/timex.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x2.inl:
-
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_exponential_simd.inl:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/fwd.hpp:
 
-/usr/include/c++/14.2.1/limits:
+/usr/include/c++/14.2.1/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/14.2.1/backward/binders.h:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x4.hpp:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/_vectorize.hpp:
 
 /usr/include/sys/cdefs.h:
 
+/usr/include/linux/posix_types.h:
+
+/usr/include/c++/14.2.1/cctype:
+
+/usr/include/bits/types/FILE.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x4_simd.inl:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x4.inl:
+
+/usr/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/keylockerintrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/setup.hpp:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x2.inl:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x3.inl:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/geometric.hpp:
+
+/usr/include/c++/14.2.1/tr1/modified_bessel_func.tcc:
+
 /usr/include/c++/14.2.1/streambuf:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x2.hpp:
 
-/usr/include/c++/14.2.1/tr1/bessel_function.tcc:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/stb/stb_image.h:
-
-/usr/include/c++/14.2.1/tr1/special_function_util.h:
-
-/usr/include/bits/select.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/shader_s.h:
-
-/usr/include/c++/14.2.1/bits/ptr_traits.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/pkuintrin.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/texture.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/stb.cpp:
-
-/usr/include/c++/14.2.1/ostream:
-
-/usr/include/bits/xopen_lim.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sm3intrin.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_trigonometric.hpp:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat2x4.hpp:
-
-/usr/include/alloca.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/bits/mathcalls-macros.h:
-
-/usr/include/c++/14.2.1/bits/cxxabi_forced.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/asm/posix_types_64.h:
-
-/usr/include/bits/byteswap.h:
-
 /usr/include/bits/endian.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/wmmintrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/KHR/khrplatform.h:
+
+/usr/include/c++/14.2.1/concepts:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_matrix.hpp:
 
 /usr/include/bits/floatn.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x4.hpp:
-
-/usr/include/c++/14.2.1/bits/cxxabi_init_exception.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/matrix.hpp:
 
@@ -2387,27 +2650,31 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/flt-eval-method.h:
 
-/usr/include/linux/posix_types.h:
-
-/usr/include/c++/14.2.1/cctype:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat4x4_simd.inl:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x4.inl:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/prfchwintrin.h:
-
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/prfchwintrin.h:
 
 /usr/include/bits/fp-fast.h:
 
 /usr/include/bits/iscanonical.h:
 
-/usr/include/c++/14.2.1/bits/codecvt.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/pmmintrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat3x2.hpp:
+
+/usr/include/c++/14.2.1/bits/stl_iterator.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/bits/waitstatus.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x2.inl:
+
+/usr/include/bits/wchar.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/adxintrin.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/integer.hpp:
 
@@ -2415,17 +2682,15 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/local_lim.h:
 
-/usr/include/bits/locale.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/enqcmdintrin.h:
 
-/usr/include/features-time64.h:
-
-/usr/include/c++/14.2.1/bits/range_access.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmiintrin.h:
 
 /usr/include/bits/mathcalls-helper-functions.h:
 
-/usr/include/bits/mathcalls.h:
+/usr/include/bits/mathcalls-macros.h:
 
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/bits/mathcalls.h:
 
 /usr/include/bits/types/clock_t.h:
 
@@ -2437,71 +2702,37 @@ CMakeFiles/tutorial.dir/shader.cpp.o:
 
 /usr/include/bits/posix1_lim.h:
 
-/usr/include/bits/stdio_lim.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bf16vlintrin.h:
 
-/usr/include/c++/14.2.1/debug/assertions.h:
+/usr/include/c++/14.2.1/bits/locale_classes.tcc:
 
-/usr/include/asm/posix_types.h:
-
-/usr/include/bits/time.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/prfchiintrin.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/c++/14.2.1/bits/predefined_ops.h:
+/usr/include/bits/struct_mutex.h:
 
 /usr/include/bits/struct_rwlock.h:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x3.inl:
+/usr/include/bits/thread-shared-types.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/c++/14.2.1/ext/alloc_traits.h:
+
+/usr/include/c++/14.2.1/bits/functional_hash.h:
+
+/usr/include/bits/types/__locale_t.h:
 
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat2x2.hpp:
 
 /usr/include/bits/types/__sigset_t.h:
 
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512cdintrin.h:
-
-/usr/include/bits/types/error_t.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512erintrin.h:
 
 /usr/include/bits/types/locale_t.h:
-
-/usr/include/bits/types/mbstate_t.h:
 
 CMakeFiles/tutorial.dir/stb.cpp.o:
 
 /usr/include/bits/types/sigset_t.h:
 
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/adxintrin.h:
-
-/usr/include/bits/waitstatus.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_mat3x2.inl:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-CMakeFiles/tutorial.dir/VAO.cpp.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512dqintrin.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/VBO.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/geometric.h:
 
 /usr/include/bits/types/struct_timeval.h:
-
-/usr/include/bits/types/struct_tm.h:
 
 /usr/include/bits/types/time_t.h:
 
@@ -2511,88 +2742,188 @@ CMakeFiles/tutorial.dir/VAO.cpp.o:
 
 /usr/include/bits/types/timer_t.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512fintrin.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/c++/14.2.1/bits/localefwd.h:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/include/c++/14.2.1/bits/basic_ios.h:
-
 /usr/lib/libdl.a:
 
 /usr/include/bits/uintn-identity.h:
-
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/gtc/constants.inl:
-
-/usr/include/c++/14.2.1/bits/char_traits.h:
 
 /usr/include/bits/math-vector.h:
 
 /usr/include/bits/uio_lim.h:
 
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bwintrin.h:
+
 /home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/simd/integer.h:
 
 /usr/include/bits/waitflags.h:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat2x2.hpp:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/stb.cpp:
 
-/usr/include/bits/wctype-wchar.h:
+/usr/include/c++/14.2.1/ostream:
 
-/usr/include/bits/setjmp.h:
-
-/usr/include/c++/14.2.1/bits/charconv.h:
+/usr/include/bits/xopen_lim.h:
 
 CMakeFiles/tutorial.dir/texture.cpp.o:
 
 /usr/include/c++/14.2.1/bits/exception_defines.h:
 
-/usr/include/c++/14.2.1/bits/exception_ptr.h:
-
 /usr/include/c++/14.2.1/bits/functexcept.h:
 
-/usr/include/c++/14.2.1/ext/alloc_traits.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/lzcntintrin.h:
 
-/usr/include/bits/types/__locale_t.h:
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat4x2.hpp:
 
-/usr/include/c++/14.2.1/bits/functional_hash.h:
+/usr/include/c++/14.2.1/cstddef:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniint8intrin.h:
-
-/usr/include/c++/14.2.1/bits/hash_bytes.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/immintrin.h:
-
-/usr/include/c++/14.2.1/bits/istream.tcc:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/bmi2intrin.h:
-
-/usr/include/c++/14.2.1/bits/locale_classes.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/14.2.1/bits/locale_classes.tcc:
-
-/usr/include/c++/14.2.1/bits/memory_resource.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vnniintrin.h:
 
 /usr/include/c++/14.2.1/bits/move.h:
 
-/usr/include/c++/14.2.1/bits/new_allocator.h:
+/usr/include/c++/14.2.1/bits/predefined_ops.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/uintrintrin.h:
+/usr/include/c++/14.2.1/bits/ptr_traits.h:
 
-/usr/include/endian.h:
+/usr/include/c++/14.2.1/bits/stl_iterator_base_types.h:
 
-/usr/include/stdint.h:
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/14.2.1/bits/version.h:
+
+/usr/include/c++/14.2.1/tr1/gamma.tcc:
+
+/usr/include/c++/14.2.1/initializer_list:
+
+/usr/include/c++/14.2.1/cfloat:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_trigonometric.inl:
+
+/usr/include/c++/14.2.1/climits:
+
+/usr/include/c++/14.2.1/bits/fstream.tcc:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clflushoptintrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_half.hpp:
+
+/usr/include/c++/14.2.1/tr1/hypergeometric.tcc:
+
+/usr/include/c++/14.2.1/bits/stl_algobase.h:
+
+/usr/include/c++/14.2.1/cstdlib:
+
+/usr/include/bits/time.h:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/c++/14.2.1/debug/assertions.h:
+
+/usr/include/c++/14.2.1/backward/binders.h:
+
+/usr/include/c++/14.2.1/limits:
+
+/usr/include/c++/14.2.1/pstl/pstl_config.h:
+
+/usr/include/c++/14.2.1/ext/atomicity.h:
+
+/usr/include/c++/14.2.1/bits/stl_construct.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec4.hpp:
+
+/usr/include/c++/14.2.1/bits/utility.h:
+
+/usr/include/c++/14.2.1/stdlib.h:
+
+/usr/include/c++/14.2.1/tr1/beta_function.tcc:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/shader.cpp:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/14.2.1/tr1/ell_integral.tcc:
+
+/usr/include/c++/14.2.1/tr1/legendre_function.tcc:
+
+/usr/include/bits/errno.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512fp16intrin.h:
+
+/usr/include/c++/14.2.1/cwchar:
+
+/usr/include/c++/14.2.1/tr1/poly_laguerre.tcc:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxtileintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/tmmintrin.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/func_common.hpp:
+
+/usr/include/c++/14.2.1/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/14.2.1/exception:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/c++/14.2.1/tr1/special_function_util.h:
+
+/usr/lib/Scrt1.o:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/mat4x3.hpp:
+
+/usr/include/c++/14.2.1/type_traits:
+
+/usr/include/c++/14.2.1/bits/std_abs.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
 /usr/include/c++/14.2.1/bits/ostream.tcc:
 
-/usr/include/c++/14.2.1/bits/postypes.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/uintrintrin.h:
 
-/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glad/glad.h:
+/usr/include/stdint.h:
 
-/usr/include/c++/14.2.1/bits/alloc_traits.h:
+/usr/include/endian.h:
 
-/usr/include/c++/14.2.1/bits/sstream.tcc:
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx5124fmapsintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/wbnoinvdintrin.h:
+
+/usr/include/limits.h:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/glad/include/glm/detail/type_vec.hpp:
+
+/usr/include/sys/select.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxfp16intrin.h:
+
+/usr/include/c++/14.2.1/bit:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx2intrin.h:
+
+/usr/include/c++/14.2.1/bits/cpp_type_traits.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx5124vnniwintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bitalgintrin.h:
+
+/usr/include/c++/14.2.1/bits/ios_base.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bitalgvlintrin.h:
+
+CMakeFiles/tutorial.dir/VAO.cpp.o:
+
+/home/jessec/Documentos/Computer-Graphics/3dpractice/VBO.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512dqintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512fp16vlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmi2intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vlbwintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vlintrin.h:

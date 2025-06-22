@@ -72,10 +72,24 @@ include CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/codegen:
 .PHONY : CMakeFiles/tutorial.dir/codegen
 
+CMakeFiles/tutorial.dir/camara.cpp.o: CMakeFiles/tutorial.dir/flags.make
+CMakeFiles/tutorial.dir/camara.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/camara.cpp
+CMakeFiles/tutorial.dir/camara.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tutorial.dir/camara.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/camara.cpp.o -MF CMakeFiles/tutorial.dir/camara.cpp.o.d -o CMakeFiles/tutorial.dir/camara.cpp.o -c /home/jessec/Documentos/Computer-Graphics/3dpractice/camara.cpp
+
+CMakeFiles/tutorial.dir/camara.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial.dir/camara.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jessec/Documentos/Computer-Graphics/3dpractice/camara.cpp > CMakeFiles/tutorial.dir/camara.cpp.i
+
+CMakeFiles/tutorial.dir/camara.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial.dir/camara.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jessec/Documentos/Computer-Graphics/3dpractice/camara.cpp -o CMakeFiles/tutorial.dir/camara.cpp.s
+
 CMakeFiles/tutorial.dir/texture.cpp.o: CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/texture.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/texture.cpp
 CMakeFiles/tutorial.dir/texture.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tutorial.dir/texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tutorial.dir/texture.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/texture.cpp.o -MF CMakeFiles/tutorial.dir/texture.cpp.o.d -o CMakeFiles/tutorial.dir/texture.cpp.o -c /home/jessec/Documentos/Computer-Graphics/3dpractice/texture.cpp
 
 CMakeFiles/tutorial.dir/texture.cpp.i: cmake_force
@@ -89,7 +103,7 @@ CMakeFiles/tutorial.dir/texture.cpp.s: cmake_force
 CMakeFiles/tutorial.dir/stb.cpp.o: CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/stb.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/stb.cpp
 CMakeFiles/tutorial.dir/stb.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tutorial.dir/stb.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tutorial.dir/stb.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/stb.cpp.o -MF CMakeFiles/tutorial.dir/stb.cpp.o.d -o CMakeFiles/tutorial.dir/stb.cpp.o -c /home/jessec/Documentos/Computer-Graphics/3dpractice/stb.cpp
 
 CMakeFiles/tutorial.dir/stb.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/tutorial.dir/stb.cpp.s: cmake_force
 CMakeFiles/tutorial.dir/shader.cpp.o: CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/shader.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/shader.cpp
 CMakeFiles/tutorial.dir/shader.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tutorial.dir/shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tutorial.dir/shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/shader.cpp.o -MF CMakeFiles/tutorial.dir/shader.cpp.o.d -o CMakeFiles/tutorial.dir/shader.cpp.o -c /home/jessec/Documentos/Computer-Graphics/3dpractice/shader.cpp
 
 CMakeFiles/tutorial.dir/shader.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/tutorial.dir/shader.cpp.s: cmake_force
 CMakeFiles/tutorial.dir/VAO.cpp.o: CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/VAO.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/VAO.cpp
 CMakeFiles/tutorial.dir/VAO.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tutorial.dir/VAO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tutorial.dir/VAO.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/VAO.cpp.o -MF CMakeFiles/tutorial.dir/VAO.cpp.o.d -o CMakeFiles/tutorial.dir/VAO.cpp.o -c /home/jessec/Documentos/Computer-Graphics/3dpractice/VAO.cpp
 
 CMakeFiles/tutorial.dir/VAO.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/tutorial.dir/VAO.cpp.s: cmake_force
 CMakeFiles/tutorial.dir/EBO.cpp.o: CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/EBO.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/EBO.cpp
 CMakeFiles/tutorial.dir/EBO.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tutorial.dir/EBO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tutorial.dir/EBO.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/EBO.cpp.o -MF CMakeFiles/tutorial.dir/EBO.cpp.o.d -o CMakeFiles/tutorial.dir/EBO.cpp.o -c /home/jessec/Documentos/Computer-Graphics/3dpractice/EBO.cpp
 
 CMakeFiles/tutorial.dir/EBO.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/tutorial.dir/EBO.cpp.s: cmake_force
 CMakeFiles/tutorial.dir/VBO.cpp.o: CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/VBO.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/VBO.cpp
 CMakeFiles/tutorial.dir/VBO.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tutorial.dir/VBO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tutorial.dir/VBO.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/VBO.cpp.o -MF CMakeFiles/tutorial.dir/VBO.cpp.o.d -o CMakeFiles/tutorial.dir/VBO.cpp.o -c /home/jessec/Documentos/Computer-Graphics/3dpractice/VBO.cpp
 
 CMakeFiles/tutorial.dir/VBO.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/tutorial.dir/VBO.cpp.s: cmake_force
 CMakeFiles/tutorial.dir/main.cpp.o: CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/main.cpp.o: /home/jessec/Documentos/Computer-Graphics/3dpractice/main.cpp
 CMakeFiles/tutorial.dir/main.cpp.o: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tutorial.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tutorial.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/main.cpp.o -MF CMakeFiles/tutorial.dir/main.cpp.o.d -o CMakeFiles/tutorial.dir/main.cpp.o -c /home/jessec/Documentos/Computer-Graphics/3dpractice/main.cpp
 
 CMakeFiles/tutorial.dir/main.cpp.i: cmake_force
@@ -172,6 +186,7 @@ CMakeFiles/tutorial.dir/main.cpp.s: cmake_force
 
 # Object files for target tutorial
 tutorial_OBJECTS = \
+"CMakeFiles/tutorial.dir/camara.cpp.o" \
 "CMakeFiles/tutorial.dir/texture.cpp.o" \
 "CMakeFiles/tutorial.dir/stb.cpp.o" \
 "CMakeFiles/tutorial.dir/shader.cpp.o" \
@@ -183,6 +198,7 @@ tutorial_OBJECTS = \
 # External object files for target tutorial
 tutorial_EXTERNAL_OBJECTS =
 
+tutorial: CMakeFiles/tutorial.dir/camara.cpp.o
 tutorial: CMakeFiles/tutorial.dir/texture.cpp.o
 tutorial: CMakeFiles/tutorial.dir/stb.cpp.o
 tutorial: CMakeFiles/tutorial.dir/shader.cpp.o
@@ -195,7 +211,7 @@ tutorial: CMakeFiles/tutorial.dir/compiler_depend.ts
 tutorial: /usr/lib/libglfw.so.3.4
 tutorial: glad/libglad.a
 tutorial: CMakeFiles/tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jessec/Documentos/Computer-Graphics/3dpractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable tutorial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tutorial.dir/VAO.cpp.o.d"
   "CMakeFiles/tutorial.dir/VBO.cpp.o"
   "CMakeFiles/tutorial.dir/VBO.cpp.o.d"
+  "CMakeFiles/tutorial.dir/camara.cpp.o"
+  "CMakeFiles/tutorial.dir/camara.cpp.o.d"
   "CMakeFiles/tutorial.dir/main.cpp.o"
   "CMakeFiles/tutorial.dir/main.cpp.o.d"
   "CMakeFiles/tutorial.dir/shader.cpp.o"
