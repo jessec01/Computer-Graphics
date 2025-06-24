@@ -260,6 +260,17 @@ int main()
         camera.ProcessKeyboard(LEFT, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
         camera.ProcessKeyboard(RIGHT, deltaTime);
+    // Control orbital con flechas
+    float orbitSpeed = 1.0f; // Ajusta la velocidad de órbita
+    if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
+        camera.ProcessOrbital(-orbitSpeed, 0.0f);
+    if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
+        camera.ProcessOrbital(orbitSpeed, 0.0f);
+    if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
+        camera.ProcessOrbital(0.0f, orbitSpeed);
+    if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
+        camera.ProcessOrbital(0.0f, -orbitSpeed);
+    
 }
 void mouse_callback(GLFWwindow* window, double xposIn, double yposIn)
 {

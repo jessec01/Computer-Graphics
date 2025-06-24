@@ -53,7 +53,15 @@ void Camera::ProcessMouseMovement(float xoffset, float yoffset, GLboolean constr
         // update Front, Right and Up Vectors using the updated Euler angles
         updateCameraVectors();
     }
-
+void Camera::ProcessOrbital(float yawoffset, float pitchoffset){
+        Yaw +=yawoffset;
+        Pitch +=pitchoffset;
+        if (Pitch > 89.0f)
+            Pitch = 89.0f;
+        if (Pitch < -89.0f)
+            Pitch =-89.0f;
+        updateCameraVectors();
+}
 // processes input received from a mouse scroll-wheel event. Only requires input on the vertical wheel-axis
 void Camera::ProcessMouseScroll(float yoffset)
     {
