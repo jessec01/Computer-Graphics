@@ -33,6 +33,15 @@ bool firstMouse = true;
 // timing
 float deltaTime = 0.0f;	// time between current frame and last frame
 float lastFrame = 0.0f;
+float orbitalTime = 0.0f;
+const float orbitalSpeed = 1.0f; // Puedes ajustar esto
+
+float orbitalRadius = 10.0f; // Valor inicial
+const float radiusChangeSpeed = 5.0f; 
+
+
+const float minRadius = 2.0f;
+const float maxRadius = 30.0f;
 int main()
 {   
 
@@ -183,9 +192,12 @@ int main()
     // -----------
 	ourShader.Active();
         
-		
+	fondo.Bind();
     while (!glfwWindowShouldClose(window))
-    {
+    {   
+        float currentFrame = static_cast<float>(glfwGetTime());
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
         // input
         // -----
         processInput(window);
@@ -194,16 +206,21 @@ int main()
         // ------
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // also clear the depth buffer now!
-        float currentFrame = static_cast<float>(glfwGetTime());
-        deltaTime = currentFrame - lastFrame;
-        lastFrame = currentFrame;
+        //float currentFrame = static_cast<float>(glfwGetTime());
+        //deltaTime = currentFrame - lastFrame;
+        //lastFrame = currentFrame;
          ourShader.Active();
         // pass projection matrix to shader (note that in this case it could change every frame)
-        glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
-        ourShader.setMat4("projection", projection);
-
+        glm::mat4 projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
+    ourShader.setMat4("projection", projection);
+        //glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
+        //ourShader.setMat4("projection", projection);
+        glm::mat4 view = glm::mat4(1.0f);
         // camera/view transformation
-        glm::mat4 view = camera.GetViewMatrix();
+        float camX = static_cast<float>(sin(orbitalTime) * orbitalRadius);
+        float camZ = static_cast<float>(cos(orbitalTime) * orbitalRadius);
+
+        view = glm::lookAt(glm::vec3(camX, 0.0f, camZ), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
         ourShader.setMat4("view", view);
         glm::mat4 model = glm::mat4(1.0f); 
         ourShader.setMat4("model", model);
@@ -213,7 +230,12 @@ int main()
         //glActiveTexture(GL_TEXTURE1);
         //glBindTexture(GL_TEXTURE_2D, texture2);
         //fondo.Bind();
-		
+		if (glfwGetKey(window, GLFW_KEY_1) == GLFW_PRESS)
+            //person.texUnit(ourShader,"texture1",0);
+            person.Bind();
+        if (glfwGetKey(window, GLFW_KEY_2)==GLFW_PRESS)
+            //fondo.texUnit(ourShader, "texture2",0);
+            fondo.Bind();    
         // activate shader
        
 
@@ -221,7 +243,7 @@ int main()
 		//fondo.Bind();
 		//VAO1.Bind();
 		
-		person.Bind();
+		//person.Bind();
         
         
         // render box
@@ -249,6 +271,8 @@ int main()
 // process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
 // ---------------------------------------------------------------------------------------------------------
  void processInput(GLFWwindow *window){
+    
+    
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
 
@@ -263,14 +287,23 @@ int main()
     // Control orbital con flechas
     float orbitSpeed = 1.0f; // Ajusta la velocidad de órbita
     if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
-        camera.ProcessOrbital(-orbitSpeed, 0.0f);
+        orbitalTime += orbitalSpeed * deltaTime;
     if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
-        camera.ProcessOrbital(orbitSpeed, 0.0f);
-    if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
-        camera.ProcessOrbital(0.0f, orbitSpeed);
-    if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
-        camera.ProcessOrbital(0.0f, -orbitSpeed);
-    
+         orbitalTime -= orbitalSpeed * deltaTime;
+    if (glfwGetKey(window, GLFW_KEY_KP_ADD) == GLFW_PRESS)
+    {
+        orbitalRadius -= radiusChangeSpeed * deltaTime;
+        // Limitar el radio para que no sea demasiado pequeño
+        if (orbitalRadius < minRadius)
+            orbitalRadius = minRadius;
+    }
+    if (glfwGetKey(window, GLFW_KEY_KP_SUBTRACT) == GLFW_PRESS)
+    {
+        orbitalRadius += radiusChangeSpeed * deltaTime;
+        // Limitar el radio para que no sea demasiado grande
+        if (orbitalRadius > maxRadius)
+            orbitalRadius = maxRadius;
+    }
 }
 void mouse_callback(GLFWwindow* window, double xposIn, double yposIn)
 {

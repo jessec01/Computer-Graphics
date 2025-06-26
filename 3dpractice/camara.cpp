@@ -54,13 +54,12 @@ void Camera::ProcessMouseMovement(float xoffset, float yoffset, GLboolean constr
         updateCameraVectors();
     }
 void Camera::ProcessOrbital(float yawoffset, float pitchoffset){
-        Yaw +=yawoffset;
-        Pitch +=pitchoffset;
-        if (Pitch > 89.0f)
-            Pitch = 89.0f;
-        if (Pitch < -89.0f)
-            Pitch =-89.0f;
-        updateCameraVectors();
+        const float radius = 10.0f;
+        yawoffset +=1.0f;
+;        float camX = sin(30) * radius;
+        float camZ = cos(30) * radius;
+        glm::mat4 view;
+        view = glm::lookAt(glm::vec3(camX, 0.0, camZ), glm::vec3(0.0, 0.0, 0.0), glm::vec3(0.0, 1.0, 0.0));
 }
 // processes input received from a mouse scroll-wheel event. Only requires input on the vertical wheel-axis
 void Camera::ProcessMouseScroll(float yoffset)
