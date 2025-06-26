@@ -42,6 +42,11 @@ const float radiusChangeSpeed = 5.0f;
 
 const float minRadius = 2.0f;
 const float maxRadius = 30.0f;
+
+
+
+// lighting
+glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
 int main()
 {   
 
@@ -87,6 +92,7 @@ int main()
     // build and compile our shader zprogram
     // ------------------------------------
     Shader ourShader("prueba.vs", "prueba.fs");
+    Shader ligthshader("ligth.vs","ligth.fs");
     //VAO VAO1;
 	VAO VAOP;
 	VAO VAO1;
@@ -163,17 +169,15 @@ int main()
     VAOP.UnBind();
 	VBOP.UnBind();
 	
-	
+    VAO VAOL;
+    VAOL.Bind();
+    VBO VBOL(vertices,sizeof(vertices));
+    VAOL.LinkVBO(VBOL,0,3,GL_FLOAT,5*sizeof(float),(void*)0);
+    VAOL.LinkVBO(VBOL, 1, 2, GL_FLOAT, 5 * sizeof(float), (void*)(3 * sizeof(float)));
+    VAOL.UnBind();
+    VBOL.UnBind();
 	//
-	VAO1.Bind();
-	VBO VBO1(verticesf,sizeof(verticesf));
-	EBO EBO1(indices,sizeof(indices));
-    VAO1.LinkVBO(VBO1, 0, 3, GL_FLOAT, 8 * sizeof(float), (void*)0);
-	VAO1.LinkVBO(VBO1, 1, 3, GL_FLOAT, 8 * sizeof(float), (void*)(3 * sizeof(float)));
-	VAO1.LinkVBO(VBO1, 2, 2, GL_FLOAT, 8 * sizeof(float), (void*)(6 * sizeof(float)));
-    VAO1.UnBind();
-	VBOP.UnBind();
-	EBO1.UnBind();
+	
 	//
     Texture fondo("../texture/fondo.jpg", GL_TEXTURE_2D, GL_TEXTURE1, GL_RGB, GL_UNSIGNED_BYTE);
 	Texture person("../texture/mikumodel.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGB, GL_UNSIGNED_BYTE);
@@ -205,7 +209,16 @@ int main()
         // render
         // ------
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // also clear the depth buffer now!
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
+        
+       
+
+
+
+
+
+
+        // also clear the depth buffer now!
         //float currentFrame = static_cast<float>(glfwGetTime());
         //deltaTime = currentFrame - lastFrame;
         //lastFrame = currentFrame;
@@ -249,6 +262,16 @@ int main()
         // render box
         VAOP.Bind();
 		//glBindVertexArray(VAO);
+        glDrawArrays(GL_TRIANGLES, 0, 36);
+        //
+        ligthshader.Active();
+        ligthshader.setMat4("projection", projection);
+        ligthshader.setMat4("view", view);
+        model = glm::mat4(1.0f);
+        model = glm::translate(model, lightPos);
+        model = glm::scale(model, glm::vec3(0.2f)); // a smaller cube
+        ligthshader.setMat4("model", model);
+        VAOL.Bind();
         glDrawArrays(GL_TRIANGLES, 0, 36);
 
 
